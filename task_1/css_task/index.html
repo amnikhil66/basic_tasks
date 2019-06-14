@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task - 1</title> 
+    <!--Local CSS-->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
+                <div class="task-one_form-layout">
+                    <div class="row task-one_form-input-spacing">   
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <label for="firstName">First Name <span><i class="fas fa-asterisk task-one_form-required"></i></span></label>
+                            <input type="text" class="form-control task-one_form-input-name" id="user_name" placeholder="enter your first name" pattern="[a-zA-Z ][a-zA-Z ]+">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <label for="lastName">Last Name <span><i class="fas fa-asterisk task-one_form-required"></i></span></label>
+                            <input type="text" class="form-control task-one_form-input-name" id="user_name" placeholder="enter your last name" pattern="[a-zA-Z ][a-zA-Z ]+">
+                        </div>
+                    </div>
+                    <div class="task-one_form-input-spacing">
+                        <label for="gender">Gender <span><i class="fas fa-asterisk task-one_form-required"></i></span></label>
+                        <input type="text" class="form-control" placeholder="enter your gender">
+                    </div>
+                    <div class="task-one_form-input-spacing">
+                        <label for="email">Email <span><i class="fas fa-asterisk task-one_form-required"></i></span></label>
+                        <input type="email" class="form-control task-one_form-input-email" id="user_email" placeholder="someone@example.com">
+                    </div>
+                    <div class="task-one_form-input-spacing">
+                        <label for="password">Password <span><i class="fas fa-asterisk task-one_form-required"></i></span></label>
+                        <input type="password" class="form-control task-one_form-input-password" id="user_password"  placeholder="use minimum 8 characters" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                    </div>
+                    <div class="task-one_form-input-spacing">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" class="form-control task-one_form-input" placeholder="12345 6789">
+                    </div>
+                    <div class="task-one_form-input-spacing">
+                        <label for="address">Address</label>
+                        <textarea name="Address" id="address" cols="30" rows="3" class="form-control task-one_form-address" placeholder="Enter your address"></textarea>
+                    </div>
+                    <div>
+                        <p class="task-one_form-tc">Terms and Conditions <span><i class="fas fa-asterisk task-one_form-required"></i></span></p>
+                        <ol>
+                            <li>Lorem Ipsum dolor sit amet</li>
+                            <li>Lorem Ipsum dolor sit amet</li>
+                        </ol>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button class="btn btn-light task-one_form-button">Cancel</button>
+                        <button class="btn btn-primary ">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

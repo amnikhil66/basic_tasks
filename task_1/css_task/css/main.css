@@ -1,0 +1,36 @@
+.task-one_form-layout {
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    box-shadow:  0 2px 5px rgba(0,0,0,.10), 0 2px 10px rgba(0,0,0,.10);
+    height: auto;
+    margin: 0.75rem 0rem 0.75rem 0rem;
+    padding: 1rem;
+    width: 35rem;
+}
+.task-one_form-input-spacing {
+    margin: 0rem 0rem 0.5rem 0rem;
+}
+input:focus,
+.task-one_form-address {
+    box-shadow: none !important;
+}
+.task-one_form-tc {
+    margin: 0rem 0rem 0.7rem 0rem;
+}
+.task-one_form-button {
+    margin: 0rem 1rem 0rem 0rem;
+}
+.task-one_form-required {
+    color: #c00;
+    font-size: 0.2rem;
+    transform: translateY(-12px);
+}
+.task-one_form-input-name:invalid {
+    border: 1px solid red;
+}
+.task-one_form-input-email:invalid {
+    border: 1px solid red;
+}
+.task-one_form-input-password:invalid {
+    border: 1px solid red;
+}
