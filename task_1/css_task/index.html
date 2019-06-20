@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task - 1</title> 
+    <!--Local CSS-->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="task-one_form-structure">
+        <div class="task-one_form-layout">
+            <div class="task-one_form-grid-container task-one_form-input-row-spacing">   
+                <div class="task-one_form-input-element-spacing">
+                    <label for="firstName">First Name <span><img src="./css/Assets/asterisk.svg" alt="Required Field" class="task-one_form-input-asterisk"></span></label>
+                    <input type="text" class="form-control task-one_form-input-style task-one_form-input-name" id="user_name" name="firstName" placeholder="enter your first name" pattern="[a-zA-Z ][a-zA-Z ]+">
+                </div>
+                <div class="task-one_form-input-element-spacing">
+                    <label for="lastName">Last Name <span><img src="./css/Assets/asterisk.svg" alt="Required Field" class="task-one_form-input-asterisk"></span></label>
+                    <input type="text" class="form-control task-one_form-input-style task-one_form-input-name" id="user_name" name="lastName" placeholder="enter your last name" pattern="[a-zA-Z ][a-zA-Z ]+">
+                </div>
+            </div>
+            <div class="task-one_form-input-row-spacing">
+                <label for="gender">Gender <span><img src="./css/Assets/asterisk.svg" alt="Required Field" class="task-one_form-input-asterisk"></span></label>
+                <input type="text" class="form-control task-one_form-input-style" name="gender" placeholder="enter your gender">
+            </div>
+            <div class="task-one_form-input-row-spacing">
+                <label for="email">Email <span><img src="./css/Assets/asterisk.svg" alt="Required Field" class="task-one_form-input-asterisk"></span></label>
+                <input type="email" class="form-control task-one_form-input-style task-one_form-input-email" id="user_email" name="email" placeholder="someone@example.com">
+            </div>
+            <div class="task-one_form-input-row-spacing">
+                <label for="password">Password <span><img src="./css/Assets/asterisk.svg" alt="Required Field" class="task-one_form-input-asterisk"></span></label>
+                <input type="password" class="form-control task-one_form-input-style task-one_form-input-password" name="passwowrd" id="user_password"  placeholder="use minimum 8 characters" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            </div>
+            <div class="task-one_form-input-row-spacing">
+                <label for="phone">Phone Number</label>
+                <input type="tel" class="form-control task-one_form-input-style task-one_form-input task-one_form-input-phone" name="phone" placeholder="12345 6789" pattern="[0-9]">
+            </div>
+            <div class="task-one_form-input-row-spacing">
+                <label for="address">Address</label>
+                <textarea name="Address" id="address" cols="30" rows="3" class="form-control task-one_form-input-style task-one_form-input-address" name="address" placeholder="Enter your address"></textarea>
+            </div>
+            <div>
+                <p class="task-one_form-tc">Terms and Conditions <span><img src="./css/Assets/asterisk.svg" alt="Required Field" class="task-one_form-input-asterisk"></span></p>
+                <ol>
+                    <li>Lorem Ipsum dolor sit amet</li>
+                    <li>Lorem Ipsum dolor sit amet</li>
+                </ol>
+            </div>
+            <div class="task-one_form-button-position">
+                <button class="task-one_form-button">Cancel</button>
+                <button class="task-one_form-button">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
