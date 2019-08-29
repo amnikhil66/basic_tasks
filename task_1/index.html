@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <form name="userRegistrationForm" class="registration__form" novalidate>
+        <input type="text" id="first_name" placeholder="First Name">
+        <input type="text" id="last_name" placeholder="Last Name">
+        <select id="gender">
+            <option value="">Gender</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+        </select>
+        <input type="text" id="email_id" placeholder="Email ID">
+        <input type="password" id="password" placeholder="Password">
+        <input type="tel" id="phone_number" placeholder="Phone Number">
+        <input type="textarea" id="address" placeholder="Address">
+        <textarea id="personal_description"></textarea>
+        <div>
+            <input type="checkbox" id="terms_and_conditions">
+            <label for="terms_and_conditions">Terms and conditions</label>
+        </div>
+        <input type="reset" value="Reset">
+        <button id="submit">Submit</button>
+    </form>
+    <script type="text/javascript" src="./js/app.js"></script>
+</body>
+
+</html>
